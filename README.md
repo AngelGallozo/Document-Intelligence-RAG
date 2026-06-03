@@ -1,4 +1,3 @@
-README.md (raíz del proyecto)
 # Document Intelligence Platform
 
 Sistema de inteligencia documental basado en LLMs para consulta de documentación privada mediante técnicas de OCR, extracción estructurada de información, recuperación semántica y Retrieval-Augmented Generation (RAG).
