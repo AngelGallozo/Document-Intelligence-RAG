@@ -318,14 +318,6 @@ Instalar y verificar:
 tesseract --version
 ```
 
-Configurar ruta:
-
-```python
-pytesseract.pytesseract.tesseract_cmd = (
-    r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-)
-```
-
 ---
 
 ## Idioma español
@@ -420,7 +412,9 @@ multipart/form-data
 | Campo       | Tipo             |
 | ----------- | ---------------- |
 | file        | PDF              |
-| ocr_profile | light / standard |
+| ocr_profile | light / standard / -- |
+
+En caso de que no sea un pdf con imagenes escaneadas, enviar el ocr_profile en `--`.
 
 ### Response
 
