@@ -30,13 +30,13 @@ proporcionada.
 Si la respuesta no aparece en el contexto,
 indica claramente que no se encontró información.
 
-CONTEXTO:
+Contexto:
 {context}
 
-PREGUNTA:
+Pregunta:
 {question}
 
-RESPUESTA:
+Respuesta:
 """.strip()
 
     return prompt
